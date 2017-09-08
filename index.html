@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Responsive Project </title>
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<meta name="viewport" content="width=device-width"/>
+		<meta charset="utf-8"/>
+		<script src="js/jquery.js">  </script>
+			
+			<script>
+			  var showWidth= 1; //toggle for width display
+			
+				if (showWidth=1){
+				
+					$(document).ready(function(){
+						$(window).resize(function(){
+							var width=$(window).width();
+							document.getElementById('output_width').innerHTML="Window Width:"+width.toString();
+						});				
+					});
+				}
+			
+			</script>
+
+		
+	</head>
+	
+	<body>
+		<div id="output_width"> </div>
+			<div id="container">
+				
+				<header class="main-header">
+					<img id="logo" src="images/logo.jpg" alt="Logo" />
+					<nav class="main-nav">   
+						<ul>
+							<li><a class="active" href="#"> Home</a></li>
+							<li><a href="#"> Portfolio</a></li>
+							<li><a href="#"> About  </a></li>
+							<li><a href="#"> Projects</a></li>
+							<li><a href="#"> Contact</a></li>
+						</ul>
+					</nav>
+				</header>
+				<div id="main">
+					<div id="content">
+						<article class="art1">
+							<header class="art-header">
+								<h2 class="title"><a href="#"> Tax Office reveals size of underpayment of super for the first time </a></h2>
+								<span> Created by: John Collett on December 24, 2015 </span>
+							</header>
+						    <p>There is a $2.85 billion-a-year shortfall in what employers should be paying their employees in super.</p>
+							<p>For the first time, the Tax Office has estimated the shortfall by comparing what employers should be paying with how much actually ends up in the super funds of their employees.	</p>
+							<a class="readmore" href="#"> Read More</a>
+						</article>
+						<article class="art2">
+							<header class="art-header">
+								<h2 class="title"><a href="#"> The Liberal councillor, his son and the $26m development </a></h2>
+								<span> Created by: Sean Nicholls on December 24, 2015 </span>
+							</header>
+						    <p>Burwood Liberal councillor Tony Doueihi did not declare an interest and voted to approve extra apartments in a $26 million development in which his son had recently purchased a unit when it came before a state government planning panel on which he sits.</p>
+							<p>Cr Doueihi also voted when the matter came before Burwood council, despite rules stating councillors must leave the chamber if they or a relative have a pecuniary interest.	</p>
+							<a class="readmore" href="#"> Read More</a>
+						</article>
+				    </div>
+					<aside id="sidebar">
+						<div class="block">
+							<h2> Top Sidebar</h2>
+								<p> At a Burwood council meeting on July 27, Cr Doueihi put forward a motion that the council enter into a voluntary planning agreement with the developer, P and N Group Holdings Pty Ltd.</p>
+						</div>
+						<div class="block">
+							<h2> Mid Sidebar</h2>
+								<p> At a Burwood council meeting on July 27, Cr Doueihi put forward a motion that the council enter into a voluntary planning agreement with the developer, P and N Group Holdings Pty Ltd.</p>
+						</div>
+						<div class="block">
+							<h2> Bottom Sidebar</h2>
+								<p> At a Burwood council meeting on July 27, Cr Doueihi put forward a motion that the council enter into a voluntary planning agreement with the developer, P and N Group Holdings Pty Ltd.</p>
+						</div>
+					</aside>
+					
+					
+				</div>
+				
+				<div class ="clr"></div>
+					<footer>
+						<p> Copyright &copy; 2017 Santos </p>
+					</footer>
+		
+		
+			</div>	
+	
+	
+	</body>
+
+
+</html>
